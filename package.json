@@ -1,14 +1,17 @@
 {
   "name": "superfruits",
   "version": "1.0.0",
-  "description": "A deployed app!",
+  "engines": {
+    "node": "18.12.1"
+  },
+  "description": "A deployed app",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "keywords": [],
-  "author": "Sir Paul Chapman",
+  "author": "Alina",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.3",
